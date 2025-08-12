@@ -13,6 +13,6 @@ source /home/kzaporojets/.bashrc
 cd /home/kzaporojets/repositories/SimKGC
 #mkdir logs
 git pull
-
+conda activate evolv-kg-simkgc
 
 OUTPUT_DIR=./checkpoint/wiki5m_ind/ bash scripts/train_wiki.sh wiki5m_ind
