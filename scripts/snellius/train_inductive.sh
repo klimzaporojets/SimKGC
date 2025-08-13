@@ -5,7 +5,7 @@
 #SBATCH --time=24:00:00
 #SBATCH --partition=gpu_h100
 #SBATCH --gpus=1
-#SBATCH --output=logs/log_train_simkgc_transductive_%A.out
+#SBATCH --output=logs/log_train_simkgc_inductive_%A.out
 
 
 source /home/kzaporojets/.bashrc
